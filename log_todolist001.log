@@ -1,0 +1,108 @@
+50:11-15 18:21:45.989  2086  9533 I HidataAppQoeP: foregroundUidAdd uid: 10250 name: com.android.todolist activity state: true
+729:11-15 18:49:16.001  2086  9533 I HidataAppQoeP: foregroundUidRemove uid: 10250 name: com.android.todolist
+1568:11-15 18:54:00.833  1490  1671 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 hwFlg=0x10 cmp=com.android.todolist/.MainActivity bnds=[15,1634][225,1944]} from uid 10081
+1569:11-15 18:54:00.835  1490  1671 I ActivityManager: ActivityRecord info: ActivityInfo{95241c3 com.android.todolist.MainActivity}
+1585:11-15 18:54:00.859  1490  1795 W HwActivityManagerServiceEx: appSwitch from: com.huawei.android.launcher to: com.android.todolist
+1587:11-15 18:54:00.859  1490  1520 D HwGameAssistantController: UPDATE: mCurFgPkg=com.android.todolist, mCurFgPid=5466, mCurIsGame=false
+1602:11-15 18:54:00.874  1490  1795 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+1606:11-15 18:54:00.880  1490  1795 V WindowManager: Check opening app=AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}: allDrawn=false startingDisplayed=true startingMoved=false isRelaunching()=false startingWindow=Window{32aff0d u0 SnapshotStartingWindow for taskId=3249}
+1619:11-15 18:54:00.894   722 20437 D iTouchService: itouch currentPackageName=com.android.todolist
+1624:11-15 18:54:00.894   722 20437 D iTouchService: itouch:app com.android.todolist is  not game app
+1645:11-15 18:54:00.913  3706  3720 I AppLifeChangeSensor:  CAWARENESS: activityResumed componentName = ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+1650:11-15 18:54:00.915  2086  9533 I HidataAppQoeP: foregroundUidAdd uid: 10250 name: com.android.todolist activity state: true
+1653:11-15 18:54:00.925  1490 13918 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity},EmuiStyle=0,StatusBarColor=0xff00574b,NavigationBarColor=0xfffcfcfc, mForceNotchStatusBar=false
+1656:11-15 18:54:00.926  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1664:11-15 18:54:00.972  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1665:11-15 18:54:00.972  1490  1586 V WindowManager_visibility: updateAllDrawn Add AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+1669:11-15 18:54:00.973  1490  1586 V WindowManager_visibility: updateAllDrawn allDrawn=false interesting=1 drawn=1 relaunchCount=0 for AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+1671:11-15 18:54:00.976  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1679:11-15 18:54:00.987  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1681:11-15 18:54:00.993  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1699:11-15 18:54:01.095  1490  1586 V WindowManager: Removing Window{32aff0d u0 SnapshotStartingWindow for taskId=3249} from AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+1700:11-15 18:54:01.096  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1701:11-15 18:54:01.113  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1706:11-15 18:54:01.147  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1707:11-15 18:54:01.150  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1713:11-15 18:54:01.163  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1717:11-15 18:54:01.175  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+1828:11-15 18:54:57.239   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+1830:11-15 18:54:57.258   742   771 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+2538:11-15 18:58:49.196   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+2540:11-15 18:58:49.230   742   771 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+2572:11-15 18:58:58.812   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+2573:11-15 18:58:58.843   742   771 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+2646:11-15 18:59:17.921   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+2647:11-15 18:59:17.963   742   771 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+2832:11-15 19:00:03.872   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+2833:11-15 19:00:03.898   742   771 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+3044:11-15 19:00:58.315  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+3057:11-15 19:00:58.336  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+3173:11-15 19:01:01.407  1490  1501 W HwActivityManagerServiceEx: appSwitch from: com.android.todolist to: com.android.settings
+3193:11-15 19:01:01.456  3706  3720 I AppLifeChangeSensor:  CAWARENESS: activityPaused componentName = ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+3211:11-15 19:01:01.462  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+3212:11-15 19:01:01.462  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+3290:11-15 19:01:01.839  2086  9533 I HidataAppQoeP: foregroundUidRemove uid: 10250 name: com.android.todolist
+3311:11-15 19:01:01.879  1490  1795 V WindowManager: notifyAppStopped: AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+3312:11-15 19:01:01.879  1490  1795 E WindowManager: win=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+3319:11-15 19:01:01.887   722 20437 D iTouchService: itouch currentPackageName=com.android.todolist
+3324:11-15 19:01:01.888   722 20437 D iTouchService: itouch:app com.android.todolist is  not game app
+4011:11-15 19:01:42.178   742   771 I AwareLog: HibSTrategy::HibStrategySwapCandidateProcessAdd packagename com.android.todolist
+4014:11-15 19:01:42.399   742  2958 I AwareLog: HibStrategy::HibStrategySwapCandidateProcessRemove packagename is com.android.todolist
+8455:11-15 19:11:43.914  1931  2807 I PG_ash  : above launcher front pkgs: [com.android.todolist, com.android.settings, com.huawei.android.launcher]
+8880:11-15 19:11:46.032  1490  2910 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 hwFlg=0x10 cmp=com.android.todolist/.MainActivity bnds=[15,1634][225,1944]} from uid 10081
+8881:11-15 19:11:46.033  1490  2910 I ActivityManager: ActivityRecord info: ActivityInfo{95241c3 com.android.todolist.MainActivity}
+8882:11-15 19:11:46.035  1931  2807 I PG_ash  : front pkg : com.android.todolist launcher: false
+8883:11-15 19:11:46.035  1931  2807 I PG_ash  : above launcher front pkgs: [com.android.todolist]
+8898:11-15 19:11:46.056  1490  2910 W HwActivityManagerServiceEx: appSwitch from: com.huawei.android.launcher to: com.android.todolist
+8900:11-15 19:11:46.056  2086  9634 D AssistantService-1000102: registerHwActivityNotifier call fromPackage:com.huawei.android.launcher, toPackage:com.android.todolist
+8901:11-15 19:11:46.056  2086  4603 D AssistantService-1000102: handleMessage app switch fromPackage:com.huawei.android.launcher, toPackage:com.android.todolist
+8902:11-15 19:11:46.057  1490  1520 D HwGameAssistantController: UPDATE: mCurFgPkg=com.android.todolist, mCurFgPid=5466, mCurIsGame=false
+8906:11-15 19:11:46.057  2086  4603 D AssistantService-1000102: package:com.android.todolist inAppAssistant:false
+8912:11-15 19:11:46.059  1931  2114 D ScenarioService: front pkg : com.android.todolist launcher: false
+8913:11-15 19:11:46.059  1931  2114 D ScenarioService: new above launcher front pkgs: [com.android.todolist]
+8914:11-15 19:11:46.059  1931  2114 I AppManager: handleAppFrontEvent: com.android.todolist
+8915:11-15 19:11:46.059  1931  2114 I AppsUsage: scnOff:false FgAPP:com.android.todolist BgAPP:com.huawei.android.launcher
+8917:11-15 19:11:46.068  2086  2404 D Hicom_EmcomManagerService: forePackage name is com.android.todolist
+8919:11-15 19:11:46.068  2086  2404 D XEngineProcessor: onForegroundAppChanged, pkgName:com.android.todolist
+8921:11-15 19:11:46.068  2086  2404 D Hicom_SysEnvMonitor: onForegroundAppChanged, pkgName: com.android.todolist
+8922:11-15 19:11:46.068  2086  2404 D XEngineMpipControl: onForegroundAppChanged, pkgName:com.android.todolist
+8929:11-15 19:11:46.072  1490  2910 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+8934:11-15 19:11:46.079  1490  2910 V WindowManager: Check opening app=AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}: allDrawn=false startingDisplayed=true startingMoved=false isRelaunching()=false startingWindow=Window{57c3ede u0 SnapshotStartingWindow for taskId=3249}
+8936:11-15 19:11:46.081  1931  2839 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.todolist to pid: 1490
+8937:11-15 19:11:46.081  1931  2839 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.todolist to pid: 1931
+8938:11-15 19:11:46.081  1931  2839 I SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:com.android.todolist
+8941:11-15 19:11:46.082  1931  3196 D HwThermalStateManager: current foreapp pkg : com.android.todolist
+8949:11-15 19:11:46.100  1490  1509 D HiDATA_ContentAware: mForegroundAppPackageName: com.android.todolist ,score: 0
+8950:11-15 19:11:46.100  1490  1509 D HiDATA  : APP type: -1 appName= com.android.todolist
+8951:11-15 19:11:46.100  1490  1509 D HiDATA  : no game, APP_TYPE_GAME, appName =com.android.todolist
+8957:11-15 19:11:46.102   722 20437 D iTouchService: itouch currentPackageName=com.android.todolist
+8962:11-15 19:11:46.102   722 20437 D iTouchService: itouch:app com.android.todolist is  not game app
+8985:11-15 19:11:46.127  3706  3720 I AppLifeChangeSensor:  CAWARENESS: activityResumed componentName = ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+8987:11-15 19:11:46.127  2086  9533 D DollieActivityManagerAdapter: [Resumed] pid:5466 uid:10250 ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+8988:11-15 19:11:46.127  1490  5335 D HiData_HwAPPQoEActivityMonitor: handleActivityChange,  curPackage:com.android.todolist, curClass:com.android.todolist.MainActivity
+8989:11-15 19:11:46.127  1490  1717 D HiDATA_HiStream: activityResumed:pid=5466, uid=10250, component=ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+8990:11-15 19:11:46.127  1490  1717 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorVideoScence input :com.android.todolist,com.android.todolist.MainActivity
+8993:11-15 19:11:46.127  1490  1643 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorHiCureAppScence input :com.android.todolist
+8994:11-15 19:11:46.127  2086  9533 I HidataAppQoeP: foregroundUidAdd uid: 10250 name: com.android.todolist activity state: true
+8995:11-15 19:11:46.127  1490  5335 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.android.todolist,com.android.todolist.MainActivity
+8996:11-15 19:11:46.128  1490  5335 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.android.todolist,null
+8997:11-15 19:11:46.128  1490  5335 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.android.todolist
+8998:11-15 19:11:46.128  1490  5335 D HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.android.todolist
+9002:11-15 19:11:46.129  2086  9533 E DollieAdapterService: notifyActivityState pkg:com.android.todolist/com.android.todolist.MainActivity state:2 fg:true mUid:10250
+9005:11-15 19:11:46.136  1490  1847 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity},EmuiStyle=0,StatusBarColor=0xff00574b,NavigationBarColor=0xfffcfcfc, mForceNotchStatusBar=false
+9012:11-15 19:11:46.137  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9029:11-15 19:11:46.179  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9030:11-15 19:11:46.179  1490  1586 V WindowManager_visibility: updateAllDrawn Add AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+9031:11-15 19:11:46.180  1490  1586 V WindowManager_visibility: updateAllDrawn allDrawn=false interesting=1 drawn=1 relaunchCount=0 for AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+9032:11-15 19:11:46.183  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9036:11-15 19:11:46.188  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9044:11-15 19:11:46.296  1490  1586 V WindowManager: Removing Window{57c3ede u0 SnapshotStartingWindow for taskId=3249} from AppWindowToken{6c5b28 token=Token{ecd554b ActivityRecord{df9261a u0 com.android.todolist/.MainActivity t3249}}}
+9045:11-15 19:11:46.298  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9056:11-15 19:11:46.348  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9062:11-15 19:11:46.365  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{a0fe321 u0 com.android.todolist/com.android.todolist.MainActivity}
+9093:11-15 19:11:46.708  1931  3203 D ThermalTrace: saveRepeatData, app:com.android.todolist, shell:33,abient:-100
+9124:11-15 19:11:47.374  5466  5466 D HwAppInnerBoostImpl: asyncReportData com.android.todolist,1,1,1,0 interval=482
+9161:11-15 19:11:47.514  1490  1509 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{d992faf u0 com.android.todolist/com.android.todolist.MainActivity}
+9164:11-15 19:11:47.515  1490  1501 V WindowManager: addWindow: Window{d992faf u0 com.android.todolist/com.android.todolist.MainActivity}
+9167:11-15 19:11:47.537  5466 11109 D HiTouch_PressGestureDetector: onAttached, package=com.android.todolist, windowType=2, mHiTouchRestricted=false
+9168:11-15 19:11:47.537  1490  1509 I StatusBarDisable: setFlags what=0 which=1
