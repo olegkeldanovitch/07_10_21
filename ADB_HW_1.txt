@@ -2,7 +2,7 @@
 adb devices
 
 2. Вывести адрес приложения todolist в системе Android -
-cd D:\QR\AndroidApp\001_ToDoList-master\app\build\outputs\apk\debug
+Adb shell pm list packages | findstr todolist
  
 3. Установить .apk файл приложениия todolist на телефон с компьютера через  ADB
 adb install app-debug.apk
